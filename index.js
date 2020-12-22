@@ -41,9 +41,9 @@ var desktopContainer = document.querySelector(".desktop-container");
 var carouselImagesChanger = () => {
   console.log(window.innerWidth);
   if (window.innerWidth < 600) {
-    desktopContainer.style.display = "none";
+    // desktopContainer.style.display = "none";
   } else {
-    desktopContainer.style.display = "block";
+    // desktopContainer.style.display = "block";
   }
   //   if(window.innerWidth)
 };
