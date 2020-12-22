@@ -31,7 +31,7 @@ img {
   height: 80vh;
   width: 55vw;
   /* background: violet; */
-  /* border: 1px solid black; */
+  border: 1px solid black;
   position: absolute; 
   top: 5%;
   left: 23%;
@@ -43,10 +43,10 @@ img {
   /* background: chocolate; */
   position: relative;
   cursor: pointer;
-  /* background: rgb(29, 29, 28) !important; */
+  background: rgb(29, 29, 28) !important;
   margin: 2px;
-  /* border: 1px solid white; */
-  /* color: white; */
+  border: 1px solid white;
+  color: white;
   font-size: 3rem;
 }
 .circle1 {
@@ -83,6 +83,57 @@ img {
   bottom: 120%;
   left: 55%;
   transform: rotate(-40deg);
+}
+
+.circle2_{
+  height: 8vh;
+  width: 8vw;
+  font-size: 5rem;
+  color: brown;
+  background: violet;
+  border: 1px solid black;
+  position: relative; 
+  top: 15%;
+  cursor: pointer;
+
+}
+.circleWrapper2_ {
+  height: 80vh;
+  width: 55vw;
+  background:rgba(29, 29, 28, 0.11);
+  position: absolute;
+  left: 21%;
+  border: 1px solid black;
+  z-index: 9;
+
+
+}
+.circle2_1 {
+  left: 43%;
+}
+.circle2_2{
+  height: 18vh;
+  width: 4vw;
+  left: 18%;
+  top: 25%;
+  transform: rotate(90deg);
+}
+.circle2_3{
+  left: 33%;
+  top: 50%;
+  transform: rotate(45deg);
+}
+.circle2_4{
+  left: 63%;
+  top: 33%;
+  transform: rotate(-45deg);
+}
+.circle2_5{
+  height: 18vh;
+  width: 4vw;
+  left: calc(100% - 20%);
+  top: calc(100% - 120%);
+  transform: rotate(90deg);
 }
 
 
@@ -191,6 +242,7 @@ img {
 }
 
 @media only screen and (max-width: 867px) {
+  /* FOR CAROUSEL - 1 */
   .circle6 {
     bottom: 62%;
     left: 80%;
@@ -198,12 +250,18 @@ img {
   .circle7 {
     bottom: 95%;
   }
+  /* FOR CAROUSEL - 2 */
+  .circle2_1 {
+    top: 22%;
+    left: 43%;
+  }
 }
 
 @media only screen and (max-width: 767px){
   html{
     /* font-size: n; */
   }
+  /* OF Carousel 1 */
   .circle2 {
     left: 5%;
   }
@@ -219,6 +277,31 @@ img {
   .circle7 {
     bottom: 90%;
   }
+  /* OF Carousel 2 */
+  .circle2_1 {
+    top: 22%;
+    left: 43%;
+  }
+  .circle2_2{
+    height: 15vh;
+    width: 7vw;
+    left: 12%;
+    top: 27%;
+    transform: rotate(90deg);
+  }
+  .circle2_3{
+    left: 30%;
+    top: 47%;
+    transform: rotate(45deg);
+  }
+  .circle2_5{
+    height: 15vh;
+    width: 7vw;
+    left: calc(100% - 20%);
+    top: calc(100% - 115%);
+    transform: rotate(90deg);
+  }
+  
 }
 /* 
 

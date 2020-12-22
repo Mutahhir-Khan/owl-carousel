@@ -1,4 +1,6 @@
 custom click events.
 https://stackoverflow.com/questions/31224192/owl-carousel-making-custom-navigation
 
+object-fit: contain (it will disable the image to strecth in <img/>
+
 

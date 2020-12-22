@@ -18,7 +18,7 @@ $(".owl-carousel").owlCarousel({
 var owl = $('.owl-carousel');
 owl.owlCarousel();
 // Go to the next item
-$('.circle').click(function() {
+$('.clickable').click(function() {
     owl.trigger('next.owl.carousel');
 })
 // Go to the previous item
