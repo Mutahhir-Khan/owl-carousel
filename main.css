@@ -6,6 +6,43 @@
 html {
   font-size: 62.5%;
 }
+
+/* LOADER_______________ */
+.loader {
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader > img {
+  width: 100px;
+}
+
+.loader.hidden {
+  animation: fadeOut 0.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+  100% {
+      opacity: 0;
+      visibility: hidden;
+      /* display: none; */
+  }
+}
+.thumb {
+  height: 100px;
+  border: 1px solid black;
+  margin: 10px;
+}
+/* CAROUSEL WORKS---------------- */
 img {
   height: 75vh;
   width: max-content;
@@ -32,17 +69,18 @@ img {
   height: 70vh;
   width: 55vw;
   /* background: violet; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
   position: absolute;
   top: 5%;
   left: 23%;
   z-index: 99;
+  
 }
 .circle {
   height: 10rem;
   width: 60px;
   /* background: chocolate; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
   position: relative;
   cursor: pointer;
   margin: 2px;
@@ -90,6 +128,33 @@ img {
   left: 55%;
   transform: rotate(-40deg);
 }
+/* SVG CIRCLE */
+.progress-ring{
+  position: absolute;
+  top: 26%;
+  left: 39%;
+}
+svg circle {
+  stroke: transparent;
+  cursor: pointer;
+}
+circle .unclickable{
+  stroke: none;
+  cursor: default;
+}
+
+
+/* html, body {
+  background-color: #2962FF;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  height: 100%;
+  position: relative;
+} */
 
 /* CAROUSEL - 2 */
 .circleWrapper2_ {
@@ -98,7 +163,7 @@ img {
   /* background: rgba(29, 29, 28, 0.11); */
   position: absolute;
   left: 21%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   z-index: 9;
 }
 .circle2_ {
@@ -109,7 +174,7 @@ img {
   color: brown; 
   background: violet; 
   */
-  border: 1px solid black; 
+  /* border: 1px solid black;  */
   position: relative;
   top: 15%;
   cursor: pointer;
@@ -149,7 +214,7 @@ img {
   /* background: rgba(29, 29, 28, 0.11); */
   position: absolute;
   left: 21%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   z-index: 9;
 }
 .circle3_ {
@@ -160,7 +225,7 @@ img {
   color: brown; 
   background: violet; 
   */
-  border: 1px solid black; 
+  /* border: 1px solid black;  */
   position: relative;
   top: 15%;
   cursor: pointer;
@@ -187,12 +252,12 @@ img {
 
 /* CAROUSEL - 4 */
 .circleWrapper4_ {
-  height: 80vh;
+  height: 70vh;
   width: 55vw;
   position: absolute;
   left: 21%;
   /* background: rgba(29, 29, 28, 0.11); */
-  border: 1px solid black;
+  /* border: 1px solid black; */
   z-index: 9;
 }
 .circle4_ {
@@ -203,7 +268,7 @@ img {
   color: brown;
   background: violet;
   */
-  border: 1px solid black;
+  /* border: 1px solid black; */
   position: relative;
   top: 15%;
   cursor: pointer;
@@ -246,7 +311,7 @@ img {
   position: absolute;
   left: 21%;
   /* background: rgba(29, 29, 28, 0.11); */
-  border: 1px solid black;
+  /* border: 1px solid black; */
   z-index: 9;
 }
 .circle5_ {
@@ -257,7 +322,7 @@ img {
   color: brown;
   background: violet;
   */
-  border: 1px solid black;
+  /* border: 1px solid black; */
   position: relative;
   top: 40%;
   cursor: pointer;
@@ -269,6 +334,14 @@ img {
 .circle5_2{
   top: 55%;
   left: 70%;
+}
+
+@media only screen and (max-width: 1200px){
+
+  .progress-ring{
+    top: 26%;
+    left: 36%;
+  }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -346,6 +419,14 @@ img {
   .circle4_4{
     top: 10%;
     left: 72%;
+  }
+  .progress-ring{
+    top: 27%;
+    left: 33%;
+  }
+  svg circle{
+    stroke-width: 20;
+    r: 65;
   }
 } 
 @media only screen and (max-width: 867px) {
@@ -542,15 +623,14 @@ img {
 }
 
 .mobile-container .owl-theme .owl-nav [class*='owl-'] {
+  width: 20vw;
+  height: 10vh;
   /* color: #FFF; */
   font-size: 14px;
   /* transform: translateX(45px); */
-  margin-top: 5px !important;
-    margin-right: 70px !important;
-    margin-bottom: 5px !important;
-    margin-left: 70px !important;
+  margin: 5px 85px;
   padding: 14px 7px;
-  background: #D6D6D6;
+  /* background: #D6D6D6; */
   display: inline-block;
   cursor: pointer;
   border-radius: 3px;
@@ -563,6 +643,8 @@ img {
   border: none;
   padding: 0!important;
   font: inherit;
+  /* background: violet; */
+
 }
 .mobile-container .owl-carousel .owl-nav button.owl-prev{
   margin-left: 5px !important;
@@ -571,6 +653,8 @@ img {
   border: none;
   padding: 0!important;
   font: inherit;
+  /* background: violet; */
+
 }
 .owl-dots:hover{
   color: rgb(249, 236, 231);
@@ -589,6 +673,7 @@ button {
   justify-content: center;
   align-items: center;
 }
+
 
 
 button span {
