@@ -7,7 +7,7 @@ html {
   font-size: 62.5%;
 }
 img {
-  height: 85vh;
+  height: 75vh;
   width: max-content;
   vertical-align: middle;
   display: inline-block;
@@ -29,10 +29,10 @@ img {
 
 /* CAROUSEL - 1 */
 .circleWrapper {
-  height: 80vh;
+  height: 70vh;
   width: 55vw;
   /* background: violet; */
-  /* border: 1px solid black; */
+  border: 1px solid black;
   position: absolute;
   top: 5%;
   left: 23%;
@@ -42,6 +42,7 @@ img {
   height: 10rem;
   width: 60px;
   /* background: chocolate; */
+  border: 1px solid black;
   position: relative;
   cursor: pointer;
   margin: 2px;
@@ -68,34 +69,36 @@ img {
   transform: rotate(-40deg);
 }
 .circle4 {
-  top: 18%;
+  top: 12%;
   left: 45%;
   transform: rotate(90deg);
 }
 .circle5 {
-  top: -13%;
+  top: -20%;
   left: 65%;
   transform: rotate(40deg);
 }
 .circle6 {
-  bottom: 62%;
+  bottom: 72%;
   left: 70%;
   /* transform: rotate(40deg); */
 }
 .circle7 {
-  bottom: 120%;
+  position: absolute;
+  top: 0;
+  /* bottom: 140%; */
   left: 55%;
   transform: rotate(-40deg);
 }
 
 /* CAROUSEL - 2 */
 .circleWrapper2_ {
-  height: 80vh;
+  height: 70vh;
   width: 55vw;
   /* background: rgba(29, 29, 28, 0.11); */
   position: absolute;
   left: 21%;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   z-index: 9;
 }
 .circle2_ {
@@ -105,8 +108,8 @@ img {
   /* 
   color: brown; 
   background: violet; 
-  border: 1px solid black; 
   */
+  border: 1px solid black; 
   position: relative;
   top: 15%;
   cursor: pointer;
@@ -117,36 +120,36 @@ img {
 .circle2_2 {
   height: 18vh;
   width: 4vw;
-  left: 18%;
+  left: 26%;
   top: 25%;
   transform: rotate(90deg);
 }
 .circle2_3 {
   left: 33%;
-  top: 50%;
+  top: 40%;
   transform: rotate(45deg);
 }
 .circle2_4 {
-  left: 63%;
-  top: 33%;
+  left: 60%;
+  top: 27%;
   transform: rotate(-45deg);
 }
 .circle2_5 {
   height: 18vh;
   width: 4vw;
-  left: calc(100% - 20%);
-  top: calc(100% - 120%);
+  left: calc(100% - 25%);
+  top: calc(100% - 130%);
   transform: rotate(90deg);
 }
 
 /* CAROUSEL - 3 */
 .circleWrapper3_ {
-  height: 80vh;
+  height: 70vh;
   width: 55vw;
   /* background: rgba(29, 29, 28, 0.11); */
   position: absolute;
   left: 21%;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   z-index: 9;
 }
 .circle3_ {
@@ -156,30 +159,30 @@ img {
   /* 
   color: brown; 
   background: violet; 
-  border: 1px solid black; 
   */
+  border: 1px solid black; 
   position: relative;
-  top: 20%;
+  top: 15%;
   cursor: pointer;
 }
 .circle3_1 {
-  left: 65%;
+  left: 63%;
   height: 10vh;
 }
 .circle3_2{
   left: 20%;
 }
 .circle3_3{
-  left: 15%;
-  top: 45%;
+  left: 20%;
+  top: 40%;
 }
 .circle3_4{
   left: 45%;
-  top: 55%;
+  top: 47%;
 }
 .circle3_5{
   height: 10vh;
-  left: 78%;
+  left: 70%;
 }
 
 /* CAROUSEL - 4 */
@@ -189,7 +192,7 @@ img {
   position: absolute;
   left: 21%;
   /* background: rgba(29, 29, 28, 0.11); */
-  /* border: 1px solid black; */
+  border: 1px solid black;
   z-index: 9;
 }
 .circle4_ {
@@ -199,10 +202,10 @@ img {
   /*
   color: brown;
   background: violet;
-  border: 1px solid black;
   */
+  border: 1px solid black;
   position: relative;
-  top: 20%;
+  top: 15%;
   cursor: pointer;
 }
 .circle4_1{
@@ -214,36 +217,36 @@ img {
   left: 65%;
 }
 .circle4_3{
-  left: 12%;
+  left: 16%;
 }
 .circle4_4{
-  left: 72%;
+  left: 68%;
 }
 .circle4_5{
-  left: 11%;
-  top: 27%;
+  left: 14%;
+  top: 20%;
 }
 .circle4_6{
   left: 25%;
-  top: 35%
+  top: 24%
 }
 .circle4_7{
-  top: 13%;
+  top: 3%;
   left: 73%;
 }
 .circle4_8{
-  top: 15%;
+  top: 8%;
   left: 58%;
 }
 
 /* CAROUSEL - 5 */
 .circleWrapper5_ {
-  height: 80vh;
+  height: 70vh;
   width: 55vw;
   position: absolute;
   left: 21%;
   /* background: rgba(29, 29, 28, 0.11); */
-  /* border: 1px solid black; */
+  border: 1px solid black;
   z-index: 9;
 }
 .circle5_ {
@@ -253,10 +256,10 @@ img {
   /*
   color: brown;
   background: violet;
-  border: 1px solid black;
   */
+  border: 1px solid black;
   position: relative;
-  top: 55%;
+  top: 40%;
   cursor: pointer;
 }
 .circle5_1{
@@ -284,28 +287,28 @@ img {
     /* transform: rotate(-40deg); */
   }
   .circle3 {
-    top: 33%;
+    top: 28%;
     left: 22%;
     transform: rotate(-40deg);
   }
   .circle4 {
-    top: 25%;
+    top: 10%;
     left: 45%;
     transform: rotate(90deg);
   }
   .circle5 {
-    top: -13%;
-    left: 70%;
+    top: -33%;
+    left: 66%;
     transform: rotate(40deg);
   }
   .circle6 {
-    bottom: 62%;
+    bottom: 80%;
     left: 70%;
     /* transform: rotate(40deg); */
   }
   .circle7 {
-    bottom: 110%;
-    left: 55%;
+    bottom: 140%;
+    left: 58%;
     transform: rotate(-40deg);
   }
 }
@@ -317,23 +320,22 @@ img {
     /* transform: rotate(-40deg); */
   }
   .circle3 {
-    top: 35%;
-    left: 18%;
+    top: 25%;
+    left: 15%;
     transform: rotate(-40deg);
   }
   .circle4 {
-    top: 25%;
+    top: 7%;
     left: 45%;
     transform: rotate(90deg);
   }
   .circle5 {
-    top: -13%;
     left: 70%;
     transform: rotate(40deg);
   }
   .circle6 {
-    bottom: 67%;
-    left: 77%;
+    bottom: 90%;
+    left: 73%;
     /* transform: rotate(40deg); */
   }
 }
@@ -341,50 +343,71 @@ img {
   html {
     font-size: 50%;
   }
+  .circle4_4{
+    top: 10%;
+    left: 72%;
+  }
+} 
+@media only screen and (max-width: 867px) {
+  /* FOR CAROUSEL - 1 */
+  .circle1{
+    left: 12%;
+  }
   .circle2 {
     left: 5%;
   }
   .circle3 {
-    top: 33%;
+    top: 27%;
     left: 15%;
     transform: rotate(-40deg);
   }
   .circle4 {
-    top: 25%;
+    top: 10%;
     left: 45%;
     transform: rotate(90deg);
   }
   .circle5 {
-    top: -10%;
-    left: 75%;
+    top: -27%;
+    left: 66%;
     transform: rotate(40deg);
   }
   .circle6 {
-    bottom: 62%;
-    left: 78%;
-    /* transform: rotate(40deg); */
+    bottom: 80%;
+    left: 74%;
   }
   .circle7 {
-    bottom: 100%;
-    left: 55%;
-    transform: rotate(-40deg);
-  }
-}
-
-@media only screen and (max-width: 867px) {
-  /* FOR CAROUSEL - 1 */
-  .circle6 {
-    bottom: 62%;
-    left: 80%;
-  }
-  .circle7 {
-    bottom: 95%;
+    bottom: 117%;
+    left: 60%;
   }
   /* FOR CAROUSEL - 2 */
   .circle2_1 {
-    top: 22%;
+    top: 17%;
     left: 43%;
   }
+  .circle2_2 {
+    height: 18vh;
+    width: 4vw;
+    left: 17%;
+    top: 25%;
+    transform: rotate(90deg);
+  }
+  .circle2_3 {
+    left: 30%;
+    top: 42%;
+    transform: rotate(45deg);
+  }
+  .circle2_4 {
+    left: 66%;
+    top: 27%;
+    transform: rotate(-45deg);
+  }
+  .circle2_5 {
+  height: 18vh;
+  width: 4vw;
+  left: calc(100% - 15%);
+  top: calc(100% - 130%);
+  transform: rotate(90deg);
+}
   /* FOR CAROUSEL - 3 */
   .circle3_1 {
     left: 67%;
@@ -403,21 +426,25 @@ img {
   }
   /* FOR CAROUSEL - 4 */
   .circle4_1{
-    top: 20%;
+    top: 13%;
     left: 20%;
-}
+  }
   .circle4_2{
+    top: 5%;
     left: 72%;
+  }
+  .circle4_3{
+    left: 12%;
   }
   .circle4_4{
     left: 82%;
   }
   .circle4_5{
-    top: 27%;
-    left: 0%;
+    top: 20%;
+    left: 5%;
   }
   .circle4_7{
-    top: 10%;
+    top: 5%;
     left: 79%;
   }
 }
@@ -498,30 +525,16 @@ img {
   }
   
 }
-/* 
-
-.carousel-wrapper {
-  width: 1000px;
-  margin: auto;
-  position: relative;
-  text-align: center;
-  font-family: sans-serif;
-} */
 
 /* MOBILE LAYOUT WORK */
-/* .mobile-container{
-  display: grid;
-  grid-template-rows: repeat(5, minmax(100vh, min-content));
-} */
-
 .mobile-container .owl-nav, .mobile-container .owl-dots{
   /* background-color: rgba(165, 42, 42, 0.212); */
   /* width: max-content; */
   position: relative;
-  bottom: 20%;
+  bottom: 10%;
 }
 .mobile-container .owl-nav{
-  bottom: 23%;
+  bottom: 20%;
 }
 
 .owl-dots .owl-dot span{
@@ -533,9 +546,9 @@ img {
   font-size: 14px;
   /* transform: translateX(45px); */
   margin-top: 5px !important;
-    margin-right: 85px !important;
+    margin-right: 70px !important;
     margin-bottom: 5px !important;
-    margin-left: 85px !important;
+    margin-left: 70px !important;
   padding: 14px 7px;
   background: #D6D6D6;
   display: inline-block;
