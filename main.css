@@ -13,9 +13,10 @@ img {
   display: inline-block;
   object-fit: contain;
 }
-.desktop-container {
+.desktop-container, .mobile-container{
   background: rgb(249, 236, 231);
 }
+
 
 .owl-stage-outer {
   /* background: lawngreen; */
@@ -506,10 +507,63 @@ img {
   text-align: center;
   font-family: sans-serif;
 } */
+
+/* MOBILE LAYOUT WORK */
+/* .mobile-container{
+  display: grid;
+  grid-template-rows: repeat(5, minmax(100vh, min-content));
+} */
+
+.mobile-container .owl-nav, .mobile-container .owl-dots{
+  /* background-color: rgba(165, 42, 42, 0.212); */
+  /* width: max-content; */
+  position: relative;
+  bottom: 20%;
+}
+.mobile-container .owl-nav{
+  bottom: 23%;
+}
+
+.owl-dots .owl-dot span{
+  background-color: rgb(249, 236, 231);
+}
+
+.mobile-container .owl-theme .owl-nav [class*='owl-'] {
+  /* color: #FFF; */
+  font-size: 14px;
+  /* transform: translateX(45px); */
+  margin-top: 5px !important;
+    margin-right: 85px !important;
+    margin-bottom: 5px !important;
+    margin-left: 85px !important;
+  padding: 14px 7px;
+  background: #D6D6D6;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.mobile-container .owl-carousel .owl-nav button.owl-next{
+  margin-right: 5px !important;
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0!important;
+  font: inherit;
+}
+.mobile-container .owl-carousel .owl-nav button.owl-prev{
+  margin-left: 5px !important;
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0!important;
+  font: inherit;
+}
+.owl-dots:hover{
+  color: rgb(249, 236, 231);
+}
 button {
-  outline: none;
-  margin-top: -10px !important;
-  padding-top: -10px !important;
+   outline: none;
 }
 
 .owl-next,

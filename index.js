@@ -1,10 +1,13 @@
+var desktopContainer = document.querySelector(".desktop-container");
+var mobileContainer = document.querySelector(".mobile-container")
+
 $(".owl-carousel").owlCarousel({
   loop: true,
   margin: 500,
   nav: true,
-  //   autoplay: true,
+  autoplay: true,
   smartSpeed: 600,
-  //   autoplayTimeout: 1000,
+  autoplayTimeout: 10000,
   autoHeight: true,
   responsive: {
     0: { items: 1 },
@@ -28,24 +31,15 @@ $('.clickable').click(function() {
 //     owl.trigger('prev.owl.carousel', [300]);
 // })
 
-
-
-var clickElements = document.querySelector(".circle");
-// clickElements.insertAdjacentHTML(
-//   "beforebegin",
-//   `<button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button>`
-// );
-// console.log(clickElements)
-
-var desktopContainer = document.querySelector(".desktop-container");
 var carouselImagesChanger = () => {
   console.log(window.innerWidth);
-  if (window.innerWidth < 600) {
-    // desktopContainer.style.display = "none";
+  if (window.innerWidth < 768) {
+    desktopContainer.style.display = "none";
+    mobileContainer.style.display = "block"
   } else {
-    // desktopContainer.style.display = "block";
+    desktopContainer.style.display = "block";  
+    mobileContainer.style.display = "none"
   }
-  //   if(window.innerWidth)
 };
 
 window.addEventListener("resize", carouselImagesChanger);
