@@ -144,18 +144,6 @@ circle .unclickable{
 }
 
 
-/* html, body {
-  background-color: #2962FF;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-          justify-content: center;
-  height: 100%;
-  position: relative;
-} */
-
 /* CAROUSEL - 2 */
 .circleWrapper2_ {
   height: 70vh;
